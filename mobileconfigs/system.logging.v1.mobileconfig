@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>System logging settings</string>
+			<key>PayloadIdentifier</key>
+			<string>cloud.zentral.system.logging.0</string>
+			<key>PayloadOrganization</key>
+			<string>Zentral Cloud</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>1DAE1428-E671-493F-AC8D-F43A729CD046</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>System</key>
+			<dict>
+				<key>Enable-Private-Data</key>
+				<true/>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables private data in the system logs</string>
+	<key>PayloadDisplayName</key>
+	<string>System logging settings</string>
+	<key>PayloadIdentifier</key>
+	<string>cloud.zentral.system.logging</string>
+	<key>PayloadOrganization</key>
+	<string>Zentral Cloud</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1AAC7F66-27DC-45D9-AAED-76480D5149C6</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/
+DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.servicemanagement</string>
+			<key>Rules</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Zentral launch daemons</string>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>cloud.zentral.</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Google Inc.</string>
+					<key>RuleType</key>
+					<string>TeamIdentifier</string>
+					<key>RuleValue</key>
+					<string>EQHXZ8M8AV</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Osquery</string>
+					<key>RuleType</key>
+					<string>TeamIdentifier</string>
+					<key>RuleValue</key>
+					<string>3522FA9PXF</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Munki</string>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>com.googlecode.munki.</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Outset</string>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>io.macadmins.outset.</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Managed Login Items settings</string>
+			<key>PayloadOrganization</key>
+			<string>Zentral Cloud</string>
+			<key>PayloadIdentifier</key>
+			<string>cloud.zentral.all.servicemanagement.0</string>
+			<key>PayloadUUID</key>
+			<string>D29B9E0A-23E3-49D8-AC4E-0B168C9001F2</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Managed Login Items settings</string>
+	<key>PayloadDescription</key>
+	<string>Configures the automatically approved login items on your Mac</string>
+	<key>PayloadOrganization</key>
+	<string>Zentral Cloud</string>
+	<key>PayloadIdentifier</key>
+	<string>cloud.zentral.all.servicemanagement</string>
+	<key>PayloadUUID</key>
+	<string>45E92B3A-9768-45BE-882C-79D1C38569A5</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

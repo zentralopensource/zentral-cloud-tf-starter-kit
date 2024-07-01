@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.santa</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>ClientMode</key>
+								<integer>1</integer>
+								<key>MachineOwner</key>
+								<string>$REALM_USER.EMAIL</string>
+								<key>SyncBaseURL</key>
+                                                                <string>https://${fqdn}/public/santa/sync/</string>
+                                                                <key>SyncExtraHeaders</key>
+                                                                <dict>
+                                                                    <key>Zentral-Authorization</key>
+                                                                    <string>Bearer ${secret}</string>
+                                                                </dict>
+                                                                <key>BannedBlockMessage</key>
+                                                                <string><![CDATA[The following application has been blocked from executing<br/>because it has been deemed malicious by the Zentral Cloud administrators.]]></string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences</string>
+			<key>PayloadOrganization</key>
+			<string>Zentral Cloud</string>
+			<key>PayloadIdentifier</key>
+			<string>cloud.zentral.santa.default-configuration.0</string>
+			<key>PayloadUUID</key>
+			<string>70E559BC-0DEF-4D88-80D6-1754FFA72B54</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Santa configuration</string>
+	<key>PayloadDescription</key>
+	<string>Configures Santa on your Mac to enroll with Zentral</string>
+	<key>PayloadOrganization</key>
+	<string>Zentral Cloud</string>
+	<key>PayloadIdentifier</key>
+	<string>cloud.zentral.santa.default-configuration</string>
+	<key>PayloadUUID</key>
+	<string>558DE81B-8670-4E0C-98E8-C58CB88C2751</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

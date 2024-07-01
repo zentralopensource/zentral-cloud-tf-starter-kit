@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.system-extension-policy</string>
+			<key>AllowUserOverrides</key>
+			<true/>
+			<key>AllowedSystemExtensions</key>
+			<dict>
+				<key>EQHXZ8M8AV</key>
+				<array>
+					<string>com.google.santa.daemon</string>
+				</array>
+			</dict>
+			<key>AllowedSystemExtensionTypes</key>
+			<dict>
+				<key>EQHXZ8M8AV</key>
+				<array>
+					<string>EndpointSecurityExtension</string>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>System Extensions</string>
+			<key>PayloadOrganization</key>
+			<string>Zentral Cloud</string>
+			<key>PayloadIdentifier</key>
+			<string>cloud.zentral.santa.system-extension-policy.0</string>
+			<key>PayloadUUID</key>
+			<string>5BAA0E72-5A1B-43EB-884B-36B9BC3B476C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Santa sysext settings</string>
+	<key>PayloadDescription</key>
+	<string>Configures your Mac to automatically enable Santa's EndpointSecurityExtension</string>
+	<key>PayloadOrganization</key>
+	<string>Zentral Cloud</string>
+	<key>PayloadIdentifier</key>
+	<string>cloud.zentral.santa.system-extension-policy</string>
+	<key>PayloadUUID</key>
+	<string>4FA3DA99-9C62-49D3-A5B3-900DDDB38D66</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.google.santa.daemon" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EQHXZ8M8AV</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.google.santa.daemon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.google.santa.bundleservice" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EQHXZ8M8AV</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.google.santa.bundleservice</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.google.santa" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EQHXZ8M8AV</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.google.santa</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Preferences Policy Control</string>
+			<key>PayloadOrganization</key>
+			<string>Zentral Cloud</string>
+			<key>PayloadIdentifier</key>
+			<string>cloud.zentral.santa.TCC.0</string>
+			<key>PayloadUUID</key>
+			<string>5A9982A7-1FC5-40B9-8E9B-5875E063ACA0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Santa TCC settings</string>
+	<key>PayloadDescription</key>
+	<string>Configures your Mac to automatically give Santa full disk access</string>
+	<key>PayloadOrganization</key>
+	<string>Zentral Cloud</string>
+	<key>PayloadIdentifier</key>
+	<string>cloud.zentral.santa.TCC</string>
+	<key>PayloadUUID</key>
+	<string>4A4AFDC8-E061-45BC-8A79-ABB4F3F5B89A</string>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
