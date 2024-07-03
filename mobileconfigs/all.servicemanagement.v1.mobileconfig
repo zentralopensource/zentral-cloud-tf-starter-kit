@@ -16,11 +16,35 @@ DTDs/PropertyList-1.0.dtd">
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>Munki</string>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>com.googlecode.munki.</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Outset</string>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>io.macadmins.outset.</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>Zentral launch daemons</string>
 					<key>RuleType</key>
 					<string>LabelPrefix</string>
 					<key>RuleValue</key>
 					<string>cloud.zentral.</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Zentral launch daemons - legacy</string>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>pro.zentral.</string>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -40,19 +64,11 @@ DTDs/PropertyList-1.0.dtd">
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Munki</string>
+					<string>Mac Admins Open Source</string>
 					<key>RuleType</key>
-					<string>LabelPrefix</string>
+					<string>TeamIdentifier</string>
 					<key>RuleValue</key>
-					<string>com.googlecode.munki.</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Outset</string>
-					<key>RuleType</key>
-					<string>LabelPrefix</string>
-					<key>RuleValue</key>
-					<string>io.macadmins.outset.</string>
+					<string>T4SK8ZXCXG</string>
 				</dict>
 			</array>
 			<key>PayloadDisplayName</key>
