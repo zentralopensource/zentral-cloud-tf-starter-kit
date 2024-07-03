@@ -36,8 +36,8 @@ resource "zentral_mdm_artifact" "bootstrap-pkg" {
 
 resource "zentral_mdm_enterprise_app" "bootstrap-pkg-2024-001" {
   artifact_id    = zentral_mdm_artifact.bootstrap-pkg.id
-  package_uri    = "s3://zentral-pro-services-artifacts-eu-central-1/saas-public/bootstrap-2024.001.pkg"
-  package_sha256 = "dbb4a0395ec0979691964b68b194f286c97c9e23e2cced6717f019c08cfe3db2"
+  package_uri    = "s3://zentral-pro-services-artifacts-eu-central-1/saas-public/bootstrap-2024.007.pkg"
+  package_sha256 = "18b128e6e900ed42624ea9f574f7af8f3df8c6c8d0263981d6fee639c95b73f4"
   macos          = true
   version        = 1
 }
