@@ -2,6 +2,7 @@ resource "zentral_osquery_configuration" "default" {
   name               = "Default"
   inventory_apps     = true
   inventory_interval = 14400
+  atc_ids            = [zentral_osquery_atc.munki-app-usage.id]
 }
 
 resource "zentral_osquery_enrollment" "default" {
