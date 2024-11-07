@@ -11,12 +11,6 @@ resource "zentral_monolith_sub_manifest_pkg_info" "munkitools" {
   pkg_info_name   = "munkitools"
 }
 
-resource "zentral_monolith_sub_manifest_pkg_info" "munkitools-app-usage" {
-  sub_manifest_id = zentral_monolith_sub_manifest.agents.id
-  key             = "managed_installs"
-  pkg_info_name   = "munkitools_app_usage"
-}
-
 # osquery
 
 resource "zentral_monolith_sub_manifest_pkg_info" "osquery" {
