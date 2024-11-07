@@ -19,7 +19,7 @@
 					<key>BadgesEnabled</key>
 					<true/>
 					<key>BundleIdentifier</key>
-					<string>com.google.santa</string>
+					<string>com.northpolesec.santa</string>
 					<key>CriticalAlertEnabled</key>
 					<true/>
 					<key>NotificationsEnabled</key>

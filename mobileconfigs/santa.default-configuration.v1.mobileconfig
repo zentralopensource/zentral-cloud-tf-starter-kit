@@ -13,7 +13,7 @@
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadContent</key>
 			<dict>
-				<key>com.google.santa</key>
+				<key>com.northpolesec.santa</key>
 				<dict>
 					<key>Forced</key>
 					<array>
