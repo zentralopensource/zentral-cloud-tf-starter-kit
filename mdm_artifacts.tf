@@ -22,6 +22,20 @@ resource "zentral_mdm_profile" "monolith-default-enrollment-1" {
   version = 1
 }
 
+resource "zentral_mdm_artifact" "managedsoftwareupdate-tcc" {
+  name      = "managedsoftwareupdate - TCC"
+  type      = "Profile"
+  channel   = "Device"
+  platforms = ["macOS"]
+}
+
+resource "zentral_mdm_profile" "managedsoftwareupdate-tcc-1" {
+  artifact_id = zentral_mdm_artifact.managedsoftwareupdate-tcc.id
+  source      = filebase64("${path.module}/mobileconfigs/managedsoftwareupdate.tcc.v1.mobileconfig")
+  macos       = true
+  version     = 1
+}
+
 # Bootstrap package
 
 resource "zentral_mdm_artifact" "bootstrap-pkg" {

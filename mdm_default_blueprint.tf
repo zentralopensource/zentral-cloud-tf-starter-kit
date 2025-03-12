@@ -55,6 +55,12 @@ resource "zentral_mdm_blueprint_artifact" "monolith-default-enrollment" {
   macos        = true
 }
 
+resource "zentral_mdm_blueprint_artifact" "managedsoftwareupdate-tcc" {
+  blueprint_id = zentral_mdm_blueprint.default.id
+  artifact_id  = zentral_mdm_artifact.managedsoftwareupdate-tcc.id
+  macos        = true
+}
+
 # Osquery
 
 resource "zentral_mdm_blueprint_artifact" "osquery-tcc" {
