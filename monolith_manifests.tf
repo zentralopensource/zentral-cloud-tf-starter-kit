@@ -12,8 +12,13 @@ resource "zentral_monolith_enrollment" "default" {
 
 # catalog
 
+data "zentral_monolith_repository" "zentral-cloud" {
+  name = "Zentral Cloud"
+}
+
 data "zentral_monolith_catalog" "production" {
-  name = "production"
+  name          = "production"
+  repository_id = data.zentral_monolith_repository.zentral-cloud.id
 }
 
 resource "zentral_monolith_manifest_catalog" "default-production" {
